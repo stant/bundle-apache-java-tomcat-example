@@ -1,6 +1,6 @@
 # bundle-apache-java-tomcat-example-cookbook
 
-The purpose I was aiming for was to create an easy way to install a common bundle of software. In this case I also aim to make it easy to install multiple web sites via a simple list of parameters with web site files to install.
+The purpose here is to give an example of how to use the stant/bundle-apache-java-tomcat cookbook, which aims to be a simple way to set up a list of web sites.
 
 ## Supported Platforms
 
