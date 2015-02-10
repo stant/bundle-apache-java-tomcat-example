@@ -18,7 +18,7 @@ Chef supported linuxes.
   <tr>
     <td><tt>attributes for project stant/bundle-apache-java-tomcat</tt></td>
     <td>&nbsp;</td>
-    <td>see: <a href="https://github.com/stant/bundle-apache-java-tomcat-example">bundle-apache-java-tomcat</a></td>
+    <td>see: <a href="https://github.com/stant/bundle-apache-java-tomcat">bundle-apache-java-tomcat</a></td>
     <td><tt>The attributes below are from: stant/bundle-apache-java-tomcat</tt></td>
   </tr>
   <tr>
