@@ -67,6 +67,28 @@ Include `bundle-apache-java-tomcat-example` in your node's `run_list`:
 }
 ```
 
+### add to your hosts files
+
+33.33.33.13   apache1.com
+
+### fill out apache web site parameters in attributes/webapps.rb
+
+```json
+override['bajt']['apache_webapps'] =
+						{
+						  "apache1" => { "name" => "apache1",
+									  "server_name" => "apache1.com",
+									  "server_name_aliases" => ["my.apache1.com"],
+									  "template" => 'webapp.conf.erb',
+									  "src_url" => 'http://10.0.2.2:81/website2.zip'
+									}
+					   }
+```
+
+### kitchen converge will:
+
+create 1 apache web site at the host name above.
+
 ## License and Authors
 
 Author:: Stan Towianski (stashu.pub@gmail.com)
